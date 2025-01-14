@@ -31,7 +31,7 @@ EcommerceHub is a modern, responsive e-commerce website built with Next.js, Reac
 
 1. Clone the repository:
    \`\`\`
-   git clone https://github.com/yourusername/ecommercehub.git
+   git clone https://github.com/FrontEndDevAsti/ecommerce
    \`\`\`
 
 2. Navigate to the project directory:
@@ -41,7 +41,7 @@ EcommerceHub is a modern, responsive e-commerce website built with Next.js, Reac
 
 3. Install the dependencies:
    \`\`\`
-   npm install
+   npm i --legacy-peer-deps
    \`\`\`
    or
    \`\`\`
@@ -78,12 +78,11 @@ EcommerceHub is a modern, responsive e-commerce website built with Next.js, Reac
 - \`/login\`: Login page
 - \`/signup\`: Signup page
 - \`/profile\`: User profile page
+- \`/policies/terms\`: Terms and Conditions
+- \`/policies/privacy\`: Privacy Policy
+- \`/policies/shipping\`: Shipping Policy
+- \`/policies/refund\`: Refund Policy
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License.
 
