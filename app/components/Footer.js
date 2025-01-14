@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer className="footer-gradient text-white py-12 mt-12">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
         <div>
           <h3 className="text-lg font-bold mb-4 text-white">EcommerceHub</h3>
           <p>123 E-commerce Street</p>
@@ -17,6 +17,8 @@ export default function Footer() {
             <li><Link href="/products" className="hover:text-gray-300 transition-colors">Products</Link></li>
             <li><Link href="/cart" className="hover:text-gray-300 transition-colors">Cart</Link></li>
             <li><Link href="/profile" className="hover:text-gray-300 transition-colors">My Account</Link></li>
+            <li><Link href="/about" className="hover:text-gray-300 transition-colors">About Us</Link></li>
+            <li><Link href="/contact-us" className="hover:text-gray-300 transition-colors">Contact Us</Link></li>
           </ul>
         </div>
         <div>
@@ -26,6 +28,15 @@ export default function Footer() {
             <li><Link href="/policies/privacy" className="hover:text-gray-300 transition-colors">Privacy Policy</Link></li>
             <li><Link href="/policies/shipping" className="hover:text-gray-300 transition-colors">Shipping Policy</Link></li>
             <li><Link href="/policies/refund" className="hover:text-gray-300 transition-colors">Refund Policy</Link></li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-lg font-bold mb-4 text-white">Connect With Us</h3>
+          <ul className="space-y-2">
+            <li><a href="https://www.facebook.com/" className="hover:text-gray-300 transition-colors">Facebook</a></li>
+            {/* <li><a href="#" className="hover:text-gray-300 transition-colors">Twitter</a></li> */}
+            <li><a href="https://www.instagram.com/" className="hover:text-gray-300 transition-colors">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/" className="hover:text-gray-300 transition-colors">LinkedIn</a></li>
           </ul>
         </div>
       </div>

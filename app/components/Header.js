@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { ShoppingCart, User, LogOut, Menu, X, LogIn, UserPlus } from 'lucide-react'
+import { ShoppingCart, User, LogOut, Menu, X, LogIn, UserPlus, Info, PhoneCall } from 'lucide-react'
 import { toast } from 'sonner'
 
 export default function Header() {
@@ -67,6 +67,8 @@ export default function Header() {
         </div>
         <ul className={`flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center ${isMenuOpen ? 'absolute top-16 left-0 right-0 bg-black p-4 z-50' : 'hidden md:flex'}`}>
           <li><Link href="/products" className="text-white hover:underline">Products</Link></li>
+          <li><Link href="/about" className="text-white hover:underline flex items-center"><Info size={20} className="mr-1" />About</Link></li>
+          <li><Link href="/contact-us" className="text-white hover:underline flex items-center"><PhoneCall size={20} className="mr-1" />Contact</Link></li>
           <li className="relative">
             <Link href="/cart" className="text-white hover:underline">
               <ShoppingCart size={24} />
