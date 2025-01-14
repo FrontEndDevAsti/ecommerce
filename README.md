@@ -78,6 +78,11 @@ EcommerceHub is a modern, responsive e-commerce website built with Next.js, Reac
 - \`/login\`: Login page
 - \`/signup\`: Signup page
 - \`/profile\`: User profile page
+- \`/policies/terms\`: Terms and Conditions
+- \`/policies/privacy\`: Privacy Policy
+- \`/policies/shipping\`: Shipping Policy
+- \`/policies/refund\`: Refund Policy
+
 
 
 
